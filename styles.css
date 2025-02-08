@@ -1,0 +1,175 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 0px;
+    background:  linear-gradient(to right, #0A0F24, #028888);
+}
+
+
+/* header {
+    background: #0A0F24;
+    color: #93fdfd;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+header {
+    background: linear-gradient(to right, #0A0F24, #00b4b4); 
+    color: #ffffff; 
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover{
+    color: #256d80 ;
+}
+
+/* .btn {
+    background: #fff;
+    color: #256d80;
+    border: none;
+    padding: 2px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 3px;
+} */
+.btn {
+    background: #fff; /* Default button background */
+    color: #256d80; /* Default button text color */
+    border: none;
+    padding: 1px 15px; /* Increased padding for better spacing */
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn:hover {
+    background: #256d80; /* Background changes on hover */
+    color: #fff; /* Text changes to white */
+}
+
+
+#hero {
+    background: url('/pic6.png') no-repeat center center/cover;
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+#hero .content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    height: 220px;
+}
+
+h1 .highlight {
+    /* color: #ff54e2; */
+    color: #e1b8ff;
+}
+
+section {
+    padding: 50px;
+    background: linear-gradient(to right, #0A0F24, #028888);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2); /* Cyan glow */
+    color: #fff; /* White text for contrast */
+
+
+}
+/* 
+margin-bottom: 20px;
+padding: 20px;
+background: #eee;
+border-radius: 5px;
+color: black; */
+
+#skills2{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2); /* Cyan glow */
+    color: #fff; /* White text for contrast */
+
+    
+}
+/* margin-bottom: 20px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+    color: black; */
+
+
+.pad{
+    padding: 3px;
+}
+
+.pad2{
+    padding-top: 10px;
+}
+
+.pad3{
+    padding-bottom: 8px;
+}
+
+#about{
+    font-size: 16px;
+}
+
+#contact a {
+    color: #00ffff; /* Initial link color (Cyan to match the theme) */
+    text-decoration: none; /* Optional: Remove underline */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+#contact a:hover {
+    color: #256d80; /* Hover color */
+}
