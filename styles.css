@@ -173,3 +173,52 @@ color: black; */
 #contact a:hover {
     color: #256d80; /* Hover color */
 }
+
+#about{
+    
+        margin-bottom: 20px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1); /* Transparent white */
+        border-radius: 10px;
+        backdrop-filter: blur(8px); /* Glass effect */
+        box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2); /* Cyan glow */
+        color: #fff; /* White text for contrast */
+    
+    
+  
+}
+/* new changes to commit */
+
+#skills{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2); /* Cyan glow */
+    color: #fff; /* White text for contrast */
+
+}
+
+#projects{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2); /* Cyan glow */
+    color: #fff; /* White text for contrast */
+}
+
+#projects a{
+    color: #f9feff; /* Initial link color (Cyan to match the theme) */
+    /* text-decoration: none;  */
+    /* Optional: Remove underline */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+
+}
+#projects a:hover{
+    color: #56daff; /* Hover color */
+
+}
+
